@@ -1,0 +1,36 @@
+table {
+    border-collapse: collapse;
+    text-align: center;
+    font-family: arial, sans-serif;
+    width: 1000px;
+    table-layout: fixed;
+    margin: auto;
+}
+
+td, th {
+    border: solid black 0.5px;
+}
+
+caption {
+    font-size: 18px;
+    margin-top: 30px;
+    padding-bottom: 5px;
+}
+
+.table th {
+    background-color: #15ac7a;
+    color: #fff;
+}
+
+/* для всех четных строк - другой background */
+.table tr:nth-child(even) {
+    background: #eff8f5;
+}
+
+.table tr:hover {
+    background-color: #c4fae8;
+}
+
+.i {
+    padding: 15px;
+}
